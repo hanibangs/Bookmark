@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Basics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(images/bg.png) no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            height: 100px;
+            background-image: url(images/nav\ bar.png);
+        }
+
+        #offcanvasNavbar {
+            width: 280px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #7C6026;
+        }
+
+        .sub-title {
+            font-size: 1.5em;
+            margin-top: 30px;
+            text-align: center;
+            color: black;
+        }
+
+        h1, h2 {
+            color: black;
+        }
+
+        .offcanvas-body .nav-link {
+            text-align: left;
+        }
+
+        .offcanvas-header {
+            text-align: left;
+        }
+    </style>
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+                <div class="text-light p-2">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </div>
+            </button>
+
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <h3 id="lblName" class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">BOOKMARK BASICS</h3>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-thumbtack fa-lg"></i>
+                                <span style="margin-left:10px;">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="about.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="etiquette.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Etiquette</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="how to use.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">How to use</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="diy's.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">DIY Bookmarks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="types.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Bookmark Types</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+        <h1>BOOKMARK ETIQUETTE</h1>
+        <h2 class="sub-title"><strong>1. Avoid Folding Pages</strong></h2>
+        <p>Folding the corner of a page to mark your place can damage the book over time. Instead, use a bookmark to keep your place without causing any harm to the book.</p>
+        <h2 class="sub-title"><strong>2. Use Proper Placement</strong></h2>
+        <p>Insert the bookmark gently between the pages near the top or bottom of the page to avoid disrupting the text.</p>
+        <h2 class="sub-title"><strong>3. Avoid Heavy or Bulky Bookmarks</strong></h2>
+        <p>Using bookmarks that are too heavy or bulky can put unnecessary strain on the spine of the book. Opt for lightweight and slim bookmarks for best results.</p>
+        <h2 class="sub-title"><strong>4. Remove Before Closing</strong></h2>
+        <p>Always remember to remove the bookmark from the book before closing it to prevent any accidental damage or creasing.</p>
+        <h2 class="sub-title"><strong>5. Respect Library Books</strong></h2>
+        <p>If you're borrowing a book from a library, be extra careful with the bookmark. Avoid using sticky notes or anything that could leave residue or damage the pages.</p>
+        <h2 class="sub-title"><strong>6. Personalize Carefully</strong></h2>
+        <p>While it's fun to personalize your bookmarks with notes or decorations, be mindful of anything that could transfer ink or cause damage to the book.</p>
+        <h2 class="sub-title"><strong>7. Share with Caution</strong></h2>
+        <p>If you're borrowing a book from a friend or lending one of your own, make sure to remove any personal bookmarks or items before returning it.</p>
+        <h2 class="sub-title"><strong>8. Store Properly</strong></h2>
+        <p>When not in use, store your bookmarks in a dry, clean place to prevent them from getting bent or damaged.</p>
+        <h2 class="sub-title"><strong>9. Appreciate Bookmarks</strong></h2>
+        <p>Take the time to appreciate the bookmarks you use, whether they're simple or elaborate. They play an important role in preserving your reading experience.</p>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

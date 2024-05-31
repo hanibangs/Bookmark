@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Basics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            background-size: cover;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            height: 100px;
+            background-image: url(images/nav\ bar.png);
+        }
+
+        #offcanvasNavbar {
+            width: 280px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #7C6026;
+        }
+
+        .sub-title {
+            font-size: 1.5em;
+            margin-top: 30px;
+            text-align: center;
+            color: black;
+        }
+
+        h1, h2 {
+            color: black;
+        }
+
+        .offcanvas-body .nav-link {
+            text-align: left;
+        }
+
+        .offcanvas-header {
+            text-align: left;
+        }
+    </style>
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+                <div class="text-light p-2">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </div>
+            </button>
+
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <h3 id="lblName" class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">BOOKMARK BASICS</h3>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-thumbtack fa-lg"></i>
+                                <span style="margin-left:10px;">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="about.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="etiquette.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Etiquette</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="how to use.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">How to use</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="diy's.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">DIY Bookmarks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="types.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Bookmark Types</span>
+                            </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="sub-title">TYPES OF BOOKMARK</h2>
+        <h2 class="sub-title"><strong>Traditional Bookmarks:</strong></h2>
+        <p>These are rectangular or strip-shaped bookmarks made from paper, cardstock, or plastic. They often feature decorative designs, quotes, or illustrations.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/trad bm.jpg" width="300:">
+            </div>
+    
+
+        <h2 class="sub-title"><strong>Metal Bookmarks:</strong></h2>
+        <p>Metal bookmarks are durable and long-lasting. They come in various shapes and designs, often featuring intricate patterns or embellishments.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/metal bm.jpg" width="300:">
+            </div>
+        
+        
+        <h2 class="sub-title"><strong>Magnetic Bookmarks:</strong></h2>
+        <p>Magnetic bookmarks have two magnetic pieces that clip onto the page, holding the bookmark in place. They're convenient and easy to use, as they won't slip out of the book.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/magnetic bm.jpg" width="300:">
+            </div>
+    
+        
+        <h2 class="sub-title"><strong>Fabric Bookmarks:</strong></h2>
+        <p>Fabric bookmarks are made from cloth materials like cotton, silk, or felt. They can be plain or adorned with embroidery, beads, or other decorations.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/fabric bm2.jpg" width="300:">
+            </div>
+    
+        
+        <h2 class="sub-title"><strong>Leather Bookmarks:</strong></h2>
+        <p>Leather bookmarks are stylish and elegant, often featuring embossed designs or stitching. They're durable and can last for a long time with proper care.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/leather bm3.jpg" width="300:">
+            </div>
+        </div>
+        
+        
+        <h2 class="sub-title"><strong>Corner Bookmarks:</strong></h2>
+        <p>Corner bookmarks are designed to clip onto the corner of a page, holding it in place. They're compact and won't protrude from the book like traditional bookmarks.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/corner bm.jpg" width="300:">
+            </div>
+    
+        
+        
+        <h2 class="sub-title"><strong>Tassel Bookmarks:</strong></h2>
+        <p>Tassel bookmarks feature a tassel attached to the top or bottom of the bookmark. They add a decorative touch and are often used in journals or planners.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/tassel bm.jpg" width="300:">
+            </div>
+
+        
+        <h2 class="sub-title"><strong>Ribbon Bookmarks:</strong></h2>
+        <p>Ribbon bookmarks are made from lengths of ribbon attached to a decorative charm or bead. They're versatile and can be easily customized to match the book or reader's preferences.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/ribbon bm3.jpg" width="300:">
+            </div>
+        </div>
+        
+        
+        <h2 class="sub-title"><strong>Elastic Band Bookmarks:</strong></h2>
+        <p>Elastic band bookmarks have a stretchy band that wraps around the front cover of the book, holding the bookmark in place. They're ideal for keeping books securely closed during travel.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/ribbon bm2.jpg" width="300:">
+            </div>
+    
+        
+        <h2 class="sub-title"><strong>Personalized Bookmarks:</strong></h2>
+        <p>Personalized bookmarks can be customized with names, initials, or photos, making them unique and special to the owner.</p>
+        <div class="row">
+            <div class="column">
+                <img src="images/personalized bm.jpg" width="300:">
+            </div>
+
+   
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+

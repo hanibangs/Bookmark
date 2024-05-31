@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Basics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(images/bg.png) no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            height: 100px;
+            background-image: url(images/nav\ bar.png);
+        }
+
+        #offcanvasNavbar {
+            width: 280px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #7C6026;
+        }
+
+        .sub-title {
+            font-size: 1.5em;
+            margin-top: 30px;
+            text-align: center;
+            color: black;
+        }
+
+        h1, h2 {
+            color: black;
+        }
+
+        .offcanvas-body .nav-link {
+            text-align: left;
+        }
+
+        .offcanvas-header {
+            text-align: left;
+        }
+    </style>
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+                <div class="text-light p-2">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </div>
+            </button>
+
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <h3 id="lblName" class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">BOOKMARK BASICS</h3>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-thumbtack fa-lg"></i>
+                                <span style="margin-left:10px;">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="about.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="etiquette.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Etiquette</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="how to use.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">How to use</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="diy's.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">DIY Bookmarks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="types.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Bookmark Types</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1>HOW TO USE A BOOKMARK?</h1>
+    <h2 class="sub-title">Select a Bookmark:</h2>
+    <p>Choose a bookmark that you like and that suits your preferences. Bookmarks come in various shapes, sizes, and materials, so pick one that appeals to you.</p>
+
+    <h2 class="sub-title">Open Your Book:</h2>
+    <p>Gently open the book to the page where you want to mark your place. Use your fingers to hold the pages open if necessary.</p>
+
+    <h2 class="sub-title">Insert the Bookmark:</h2>
+    <p>Slide the bookmark between the pages near the top or bottom of the page. Make sure to insert it gently to avoid damaging the book or tearing the pages.</p>
+
+    <h2 class="sub-title">Position the Bookmark:</h2>
+    <p>Place the bookmark so that it sticks out slightly from the top or side of the book. This will make it easy to locate and remove when you want to continue reading.</p>
+
+    <h2 class="sub-title">Close the Book:</h2>
+    <p>Once the bookmark is in place, you can
+    <h2 class="sub-title">Close the Book:</h2>
+    <p>Once the bookmark is in place, you can close the book as usual. Be careful not to disturb the bookmark or move it out of position while closing the book.</p>
+    
+    <h2 class="sub-title">Return to Your Book:</h2>
+    <p>When you're ready to resume reading, open the book to the marked page. The bookmark should still be in place, making it easy to find your spot.</p>
+    
+    <h2 class="sub-title">Remove the Bookmark:</h2>
+    <p>Once you've finished reading or no longer need the bookmark, gently remove it from the book. Slide it out from between the pages, being careful not to damage the book or tear any pages.</p>
+    
+    <h2 class="sub-title">Store the Bookmark:</h2>
+    <p>Store the bookmark in a safe place when not in use, such as inside the book or in a bookmark holder. This will help prevent it from getting lost or damaged.</p>
+    
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+        </body>
+    
+</html>
+    

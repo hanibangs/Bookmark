@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Basics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            background-size: cover;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            height: 100px;
+            background-image: url(images/nav\ bar.png);
+        }
+
+        #offcanvasNavbar {
+            width: 280px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #7C6026;
+        }
+
+        .sub-title {
+            font-size: 1.5em;
+            margin-top: 30px;
+            text-align: center;
+            color: black;
+        }
+
+        h1, h2 {
+            color: black;
+        }
+
+        .offcanvas-body .nav-link {
+            text-align: left;
+        }
+
+        .offcanvas-header {
+            text-align: left;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .links {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+                <div class="text-light p-2">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </div>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <h3 id="lblName" class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">BOOKMARK BASICS</h3>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-thumbtack fa-lg"></i>
+                                <span style="margin-left:10px;">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="about.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="etiquette.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Etiquette</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="how to use.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">How to use</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="diy's.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">DIY Bookmarks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="types.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Bookmark Types</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="sub-title">DIY BOOKMARKS</h2>
+        <h2 class="sub-title"><strong>Origami Corner Bookmark</strong></h2>
+        <p><strong>Material</strong></p>
+        <p>1. Square piece of paper – 15 x 15cm</p>
+        <p><strong>Instructions</strong></p>
+        <p>1. Fold the square paper across the diagonal to make a triangle</p>
+        <p>2. Rotate to bring the long edge parallel, then bring the right corner up to meet the top corner</p>
+        <p>3. Repeat with the corner. You should now have a smaller diamond with a line down the middle</p>
+        <p>4. Open up the last two folds</p>
+        <p>5. Folds down the top corner – only take one sheet of paper</p> 
+        <p>6. Bring the right corner back up and fold into the flap</p>
+        <p>7. Repeat with the left corner</p>
+
+        <div class="image-container">
+            <img src="images/diy1.jpg" width="280">
+        </div>
+
+        <div class="links">
+            <a style="color: #7c3326;" href="https://youtu.be/BEwl0fvqo18?si=fOZHYc_cQNBcSOps">Visit YouTube Tutorial (1)</a>
+            <br>
+            <a style="color: #7c3326;" href="https://youtu.be/JbUOaJhcw34?si=du2UNSgx6VsMGyEA">Visit YouTube Tutorial (2)</a>
+        </div>
+
+        <h2 class="sub-title"><strong>Pressed Flower Bookmark</strong></h2>
+        <p><strong>Materials</strong></p>
+        <p>1. Fresh flowers or leaves</p>
+        <p>2. Heavy books</p>
+        <p>3. Heavy weight (optional)</p>
+        <p>4. Clear contact paper</p>
+        <p>5. Scissors</p>
+        <p><strong>Instructions</strong></p>
+        <p>1. Pick your flowers or leaves. (Freshly picked works best.)</p>
+        <p>2. Place them in a thick, heavy book. Make sure that they are slightly spaced apart. Also ensure that they’re placed in such a way that when the book closes, they’ll flatten nicely.</p>
+        <p>3. If you have it, place a heavy weight on the book. Alternatively, stack a few more heavy books on top of the one with the flowers in it.</p>
+        <p>4. Wait at least 2 days and open the book up. If they’re sufficiently pressed, you’re ready to go! If you want them more flat or dry, leave for another day or two.</p>
+        <p>5. Cut a bookmark-shaped strip of clear contact paper. Remove the backing and place it on a surface with the sticky side up. Then stick some pressed flowers to it. It looks cool if some of them hang over the edge! You can trim later.</p>
+        <p>6. Next, cut a slightly larger piece of contact paper and sandwich the flowers between the two pieces.</p>
+        <p>7. Finally, trim the larger contact paper to the size of the smaller one.</p>
+
+        <div class="image-container">
+            <img src="images/diy2.jpg" width="280">
+        </div>
+
+        <div class="links">
+            <a style="color: #7c3326;" href="https://youtu.be/0NEkpoAiECA?si=HI57e7c9zHoTRAil">Visit YouTube Tutorial (1)</a>
+            <br>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

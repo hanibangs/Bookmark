@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Basics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(images/bg.png) no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            height: 100px;
+            background-image: url(images/nav\ bar.png);
+        }
+
+        #offcanvasNavbar {
+            width: 280px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #7C6026;
+        }
+
+        .sub-title {
+            font-size: 1.5em;
+            margin-top: 30px;
+            text-align: center;
+            color: black;
+        }
+
+        h1, h2 {
+            color: black;
+        }
+
+        .offcanvas-body .nav-link {
+            text-align: left;
+        }
+
+        .offcanvas-header {
+            text-align: left;
+        }
+    </style>
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+                <div class="text-light p-2">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </div>
+            </button>
+
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <h3 id="lblName" class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">BOOKMARK BASICS</h3>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-thumbtack fa-lg"></i>
+                                <span style="margin-left:10px;">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="about.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="etiquette.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Etiquette</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="how to use.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">How to use</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="diy's.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">DIY Bookmarks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="types.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:10px;">Bookmark Types</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1>WHAT IS A BOOKMARK?</h1>
+
+    <div>
+        <h2 class="sub-title">PHYSICAL BOOKMARK</h2>
+        <p>
+            This refers to a tangible marker, often an elegantly designed piece of card, ribbon, or other material, inserted between the pages of a book. Its purpose is to denote the exact location where the reader paused their perusal, allowing for a seamless continuation of their literary journey. These bookmarks can range from simple, utilitarian designs to ornate, artistic creations that add an aesthetic touch to the reading experience.
+        </p>
+
+        <h2 class="sub-title">DIGITAL BOOKMARK</h2>
+        <p>
+            In the realm of digital information, a bookmark serves as a refined method of saving the precise location within a document or web page. This enables users to effortlessly return to a specific point of interest without the need for laborious searching. In web browsers, digital bookmarks store the URLs of frequently visited or particularly significant websites, ensuring quick and easy access. Similarly, e-readers and PDF readers employ digital bookmarks to mark passages, allowing readers to navigate extensive texts with ease and precision.
+        </p>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
